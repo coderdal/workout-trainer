@@ -4,6 +4,9 @@ export const metadata = {
   title: "Workout Trainer",
   description:
     "Workout Trainer allows you to define training according to a specific muscle area.",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({ children }) {
