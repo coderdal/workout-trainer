@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  height: 56px;
+  background: var(--header-bg-color);
+  border-bottom: 0.1em solid var(--dark-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+
+.title {
+  font-size: 1.3em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.title > a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.title > a > span {
+  color: var(--dark-color);
+}
+
+@media screen and (max-width: 615px) {
+  .header {
+    padding: 0px 20px;
+  }
+}
