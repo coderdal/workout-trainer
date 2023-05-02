@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  height: 56px;
+  height: var(--header-height);
   background: var(--header-bg-color);
   border-bottom: 0.1em solid var(--dark-color);
   display: flex;
